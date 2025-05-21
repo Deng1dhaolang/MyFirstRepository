@@ -1,7 +1,7 @@
 #Modify the values for the following variables to configure the audit log search.
 $logFile = "C:\Users\yiboya\1\AuditLogSearchLog.txt"
 $outputFile = "C:\Users\yiboya\1\AuditLogRecords.csv"
-[DateTime]$start = [DateTime]::UtcNow.AddDays(-30)
+[DateTime]$start = [DateTime]::UtcNow.AddDays(-7)
 [DateTime]$end = [DateTime]::UtcNow
 $record = "CopilotInteraction"
 $resultSize = 5000
